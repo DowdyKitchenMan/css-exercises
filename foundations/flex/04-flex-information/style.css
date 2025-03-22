@@ -12,6 +12,38 @@ img {
   font-weight: 900;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.fruits {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 52px;
+}
+
+li {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
